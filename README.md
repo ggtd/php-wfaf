@@ -37,7 +37,7 @@ Post means any http client request that is made. See class usage examples for mo
 
 *This tool is not validating any input that is send from client to server.*
 
-*The decision is based on 3 real-time calculated parameters.*
+*The decision of ALLOW/BLOCK is based on 3 real-time calculated parameters.*
 
 -1. Last request time.
 This is a simple time based Rule, the default value is set to 20 seconds. It means that there
@@ -68,13 +68,14 @@ done on user/sysadmin level. Do what you need.
 
 TODO
 ====
-*Add loging
-*Add time based blocking
-*Make documetation for HASH, that includes URL or User-Agent info, for even more precision.
-*Add separate blocing table/text/htaccess file to be used.
-*Decentralized or shared DB for HA and Cluseters
-*MySQL pr PG DB usage.
-*Rule n.3: Document, expand options, explain, tune config and usage
+* Add loging
+* More documetation and examples.
+* Add time based blocking
+* Make documetation for HASH, that includes URL or User-Agent info, for even more precision.
+* Add separate blocing table/text/htaccess file to be used.
+* Decentralized or shared DB for HA and Cluseters
+* MySQL pr PG DB usage.
+* Rule n.3: Document, expand options, explain, tune config and usage
 
 
 
