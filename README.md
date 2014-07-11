@@ -19,7 +19,7 @@ The implementation and usage is designed to be as simple as possible:
 
 include("php-wfaf.php");
 $fw= new firewall("OPTIONAL-FORM-TAG");
-if ($fw->status=="ALLOW")
+if ($fw->STATUS=="ALLOW")
 {
   //do what you need
   //send emails, write SQL insert query,...
