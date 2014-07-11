@@ -1,5 +1,6 @@
 <?php
-#execute this in clommand line or via http request.
+#this PHP file will create an empty SQLite database with tahle scructure for php-wfaf
+#execute this in command line or via http request.
 #just be sure to that the folder ./data/ is created and writable by Web server.
 
 
