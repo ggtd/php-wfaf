@@ -50,7 +50,7 @@ class firewall
             $db_ret_select = $db->query("VACUUM;");
             $db->close();
         }
-        if ($this->LAST_POST_BEFORE <= $this->LAST_POST_THRESHOLD) {
+         if ($this->LAST_POST_BEFORE>0 AND $this->LAST_POST_BEFORE <= $this->LAST_POST_THRESHOLD) {
             $this->STATUS = "BLOCK";
         }
         //calculate the PITT (Posts in Time / THRESHOLD) 
