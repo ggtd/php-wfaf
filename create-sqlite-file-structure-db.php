@@ -1,6 +1,7 @@
 <?php
-#execute this in clommand line
-#be sure to that the folder data is created and writable by WWW user.
+#execute this in clommand line or via http request.
+#just be sure to that the folder ./data/ is created and writable by Web server.
+
 
 
    class MyDB extends SQLite3
