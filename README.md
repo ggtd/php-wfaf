@@ -4,8 +4,7 @@ php-wfaf
 Web Form Application Firewall - Form flood detector - PHP/SQLite Version
 
 Background:
-I am fan of web forms withous Captcha protection. But this means to handle with flooding from time to time.
-That is why this PHP class was created. It can act as hand-brake for PHP scripts that recieve data from web forms.
+I am fan of web forms withou Captcha, this means to hande the validation in a special way, and handle with flooding from time to time. That is why this PHP class was created. It can act as hand-brake for PHP scripts that recieve data from web forms.
 
 This PHP class is designed to protect Web Forms against flooding. (Without using captcha)
 The best example of form like this could be a "Contact form" on a website. In real World
