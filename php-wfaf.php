@@ -17,12 +17,12 @@ class firewall
 {
     function __construct($my_form_name)
     {
-        //you can edit this
+        //you can edit this:
         $this->LAST_POST_THRESHOLD     = 20;
         $this->MAX_POSTS_IN_TIME_FRAME = 3;
         $this->POSTS_TIME_FRAME        = 180;
         
-        //do not edit this!
+        //do not edit this!:
         $this->ip                      = $_SERVER['REMOTE_ADDR'];
         $this->FORM                    = $my_form_name;
         $this->hash                    = md5($this->ip . "-" . $this->FORM);
