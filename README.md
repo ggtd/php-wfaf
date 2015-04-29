@@ -48,7 +48,7 @@ $this->LAST_POST_THRESHOLD     = 20;
 -2. Number of requests made in preset time span.
 The default rule is set 
 
-Youn can change the settings, by changing these line:
+You can change the settings, by changing these line:
 $this->MAX_POSTS_IN_TIME_FRAME = 3;
 $this->POSTS_TIME_FRAME        = 180;
 
